@@ -1,2 +1,5 @@
 ### CONTROLLER = Recruits # ACTION = index
 GET http://localhost:3000/recruits.json
+
+### CONTROLLER = Recruits # ACTION = show
+GET http://localhost:3000/recruits/jacorey%20brooks.json
