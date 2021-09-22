@@ -1,0 +1,2 @@
+### CONTROLLER = Recruits # ACTION = index
+GET http://localhost:3000/recruits.json
