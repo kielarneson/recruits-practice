@@ -31,7 +31,7 @@ class RecruitsController < ApplicationController
   end
 
   def show
-    # Accessing all recruits
+    # Accessing specific recruit
     specific_recruit = cfbd_api_response().select { |player| player["name"].downcase == params[:name].downcase }
     render json: specific_recruit
   end
